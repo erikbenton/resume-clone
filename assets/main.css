@@ -173,7 +173,7 @@ Grid
 ===========================
 */
 
-.skills h5 {
+h5 {
 	font-size: 18px;
 	margin-bottom: 20px;
 	margin-top: 30px;
@@ -241,4 +241,14 @@ tbody td:only-of-type {
 	border-bottom: 1px solid #dfe2e5;
 }
 
-/* Software Section */
+/* Work Section */
+.work h6 {
+	font-weight: bold;
+	width: 75%;
+}
+
+.work .year {
+	display: inline;
+	font-weight: bold;
+	text-align: right;
+}
