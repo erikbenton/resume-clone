@@ -55,6 +55,8 @@ General
 
 body {
 	font-family: 'Encode Sans Condensed', sans-serif;
+	background-color: black;
+	font-size: 14px;
 }
 
 /*
@@ -97,7 +99,7 @@ Grid
 */
 
 .main.container {
-	width: 800px;
+	width: 850px;
 	margin: 0 auto;
 }
 
@@ -159,21 +161,21 @@ Grid
 }
 
 .intro h1 {
-	font-size: 44px;
-	margin-top: 40px;
+	font-size: 60px;
+	margin-top: 70px;
 }
 
 .intro h2 {
-	font-size: 18px;
+	font-size: 20px;
 	margin-bottom: 40px
 }
 
 .intro img {
-	width: 100px;
-	height: 100px;
+	width: 125px;
+	height: 125px;
 	margin-right: 50px;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	border-radius: 50%;
 	float: right;
 	vertical-align: center;
@@ -198,6 +200,13 @@ Grid
 	Skills
 ===========================
 */
+
+.skills {
+	padding-left: 50px;
+	padding-right: 30px;
+	background-color: rgb(247,247,247);
+	height: 700px;
+}
 
 h5 {
 	font-size: 18px;
@@ -229,8 +238,18 @@ th {
   width: 10%;
 }
 
-td {
+.skills td {
   width: 40%;
+}
+
+.skills .filled-bg-1 {
+	width: 90%;
+	background-color: rgb(10,161,218);
+}
+
+.skills .empty-bg-1 {
+	width: 10%;
+	background-color: rgb(238,238,238);
 }
 
 thead {
@@ -265,6 +284,19 @@ tbody td:only-of-type {
 /* Personal Section */
 .personal tbody tr {
 	border-bottom: 1px solid #dfe2e5;
+}
+
+/*
+===========================
+	Experience
+===========================
+*/
+
+.experience {
+	padding-right: 50px;
+	padding-left: 20px;
+	background-color: rgb(238,238,238);
+	height: 700px;
 }
 
 /* Work Section */
@@ -302,4 +334,22 @@ tbody td:only-of-type {
 
 .professional-skills td:last-of-type {
 	padding-left: 0;
+}
+
+/*
+===========================
+	Footer
+===========================
+*/
+
+/* Social Media */
+
+.social {
+	background-color: rgb(10,161,218);
+}
+
+.social table {
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
 }
