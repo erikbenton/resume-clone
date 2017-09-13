@@ -49,6 +49,16 @@ table {
 
 /*
 ===============================
+General
+===============================
+*/
+
+body {
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+/*
+===============================
 Grid
 ===============================
 */
@@ -87,7 +97,7 @@ Grid
 */
 
 .main.container {
-	width: 66%;
+	width: 800px;
 	margin: 0 auto;
 }
 
@@ -99,6 +109,14 @@ Grid
 
 .nav {
 	text-align: left;
+	background-color: rgb(0,133,198);
+	color: white;
+	padding-left: 50px;
+}
+
+.nav a {
+	color: white;
+	text-decoration: none;
 }
 
 .nav li {
@@ -128,6 +146,9 @@ Grid
 .intro {
   clear: both;
   *zoom: 1;
+	background-color: rgb(10,161,218);
+	color: white;
+	padding-left: 50px;
 }
 
 
@@ -148,13 +169,14 @@ Grid
 }
 
 .intro img {
-	width: 150px;
-	height: 150px;
-	margin-right: 80px;
+	width: 100px;
+	height: 100px;
+	margin-right: 50px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 	border-radius: 50%;
 	float: right;
 	vertical-align: center;
-	/*display: inline;*/
 }
 
 /*
@@ -164,7 +186,11 @@ Grid
 */
 
 .abstract {
-	margin: 40px 0;
+	padding: 40px 0;
+	background-color: rgb(87,98,104);
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 /*
@@ -245,10 +271,35 @@ tbody td:only-of-type {
 .work h6 {
 	font-weight: bold;
 	width: 75%;
+	display: inline-block;
+	margin-bottom: 5px;
 }
 
 .work .year {
-	display: inline;
+	display: inline-block;
 	font-weight: bold;
+	width: 25%;
 	text-align: right;
+}
+
+.work li {
+	margin-bottom: 15px;
+}
+
+/* Professional Skills Section */
+
+.professional-skills td {
+	width: 20%;
+	text-align: center;
+	font-size: 12px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.professional-skills td:first-of-type {
+	padding-right: 0;
+}
+
+.professional-skills td:last-of-type {
+	padding-left: 0;
 }
