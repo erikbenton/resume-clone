@@ -205,7 +205,7 @@ Grid
 	padding-left: 50px;
 	padding-right: 30px;
 	background-color: rgb(247,247,247);
-	height: 700px;
+	height: 800px;
 }
 
 h5 {
@@ -242,14 +242,16 @@ th {
   width: 40%;
 }
 
-.skills .filled-bg-1 {
-	width: 90%;
+.skills .bg-filled {
+	height: 10%;
 	background-color: rgb(10,161,218);
+	color: rgb(10,161,218);
 }
 
-.skills .empty-bg-1 {
-	width: 10%;
+.skills .bg-empty {
+	height: 10%;
 	background-color: rgb(238,238,238);
+	color: rgb(238,238,238);
 }
 
 thead {
@@ -286,6 +288,18 @@ tbody td:only-of-type {
 	border-bottom: 1px solid #dfe2e5;
 }
 
+/* Hobbies Section */
+
+.hobbies img {
+	height: 50px;
+	width: 50px;
+}
+
+.hobbies p {
+	text-align: center;
+	width: 50px;
+}
+
 /*
 ===========================
 	Experience
@@ -296,7 +310,7 @@ tbody td:only-of-type {
 	padding-right: 50px;
 	padding-left: 20px;
 	background-color: rgb(238,238,238);
-	height: 700px;
+	height: 800px;
 }
 
 /* Work Section */
@@ -352,4 +366,24 @@ tbody td:only-of-type {
 	width: 75%;
 	margin: 0 auto;
 	text-align: center;
+}
+
+/* Contact */
+
+.contact {
+	text-align: left;
+	background-color: rgb(0,133,198);
+	color: white;
+	padding: 20px 50px;
+}
+
+.contact .address {
+	width: 80%;
+	display: inline-block;
+}
+
+.contact .website {
+	display: inline-block;
+	text-align: right;
+	width: 20%;
 }
